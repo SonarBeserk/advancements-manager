@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "advancements_manager",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Advancements Manager",
+  "description": "Mod designed to make advancements easier to manage",
   "authors": [
     "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/SonarBeserk/advancements-manager"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/advancements_manager/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.serkprojects.advancementsmanager.AdvancementsManagerMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "advancements_manager.mixins.json"
   ],
 
   "depends": {
